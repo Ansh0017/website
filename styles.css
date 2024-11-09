@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.menu-item {
+    background: #ffffffe3;
+    border: 1px solid #dddddd00;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.menu-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 200px;  /* Set width to 200px */
+    height: 200px; /* Set height to 200px */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button {
+    padding: 12px 20px; /* Increased padding for a larger button */
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+button:active {
+    transform: scale(0.95); /* Slightly shrink on click */
+}
+body {
+    background-image: url("—Pngtree—fine\ rice\ vegetarian\ simple\ food_997793.jpg");
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    height: 230vh; /* Full height */
+    margin: 0; /* Remove default margin */
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo img {
+    max-width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+.menu-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.menu-item img,
+.menu-item button {
+    margin-left: 20px; /* Increased margin for more space */
+}
+.menu-text {
+    flex: 1;
+    text-align: left;
+}
+
